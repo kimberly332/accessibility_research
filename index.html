@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <!-- Import Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Import Font Awesome -->
+    <script src="https://kit.fontawesome.com/65f54478f1.js" crossorigin="anonymous"></script>
+
+    <title>Accessibility Research - Movies</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.svg">
+</head>
+<body>
+    <header id="top">
+        <a href="index.html" class="logo"><img src="images/logo.png" alt="Accessibility Logo" width="60"></a>
+        <ul>
+            <li tabindex="1"><a href="index.html"  class="active">Movies</a></li>
+            <li tabindex="2"><a href="tv-shows.html">TV Shows</a></li>
+            <li tabindex="3"><a href="music.html">Music</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <video autoplay preload="auto" width="1100" height="625" poster="images/the-grinch-poster.jpg">
+            <source type="video/mp4" src="videos/THE GRINCH Official Trailer (2018).mp4"/>
+            <source type="video/webm" src="videos/THE GRINCH Official Trailer (2018).webm"/>
+            <track kind="subtitles" srclang="en" src="subtitles/THE GRINCH Official Trailer (2018).mp4.vtt" label="English" default />
+        </video>
+
+        <div id="video-controls">
+            <i class="fas fa-play-circle" id="play"></i>
+            <i class="fas fa-pause-circle" id="pause"></i>
+            <progress id="progress" max="100" value="0">Progress</progress>
+            <label id="timer" class="hidden" for="progress" role="timer"></label>
+            <i class="fas fa-volume-mute" id="mute"></i>
+            <i class="fas fa-expand-arrows-alt" id="expend"></i>
+        </div>
+
+        <div class="description">
+            <h2 tabindex="4">Dr. Seuss’ The Grinch</h2>
+            <h4 tabindex="5">2018 | <u>PG</u> | 1h 25m</h4>
+            <p tabindex="6">A grump with a mean streak plots to bring Christmas to a halt in the cheerful town of Whoville. But a generous little girl could change his heart.</p>
+
+            <h4 tabindex="7">About Dr. Seuss’ The Grinch</h4>
+            <p tabindex="8"><span>Director: </span>Scott Mosier, Yarrow Cheney</p>
+            <p tabindex="9"><span>Cast: </span>Benedict Cumberbatch. Cameron Seely, Rashida Jones, Pharrell Williams, Kenan Thompson, Angela Lansbury</p>
+            <p tabindex="10"><span>Genres: </span>Family Features, Family Comedies, Movies Based on Books, Children & Family Movies, Comedies</p>
+            <p tabindex="11"><span>This movie is: </span>Goofy
+            </p>
+            <p tabindex="12"><span>Maturity rating: </span><u>PG </u>brief rude humor</p>
+            <a href="#top"><i tabindex="14" class="fas fa-arrow-circle-up"></i></a> 
+        </div>
+        
+        <footer tabindex="15">&copy; 2021 Accessibility All Rights Reserved.</footer>
+    </main>
+    <script src="js/master.js"></script>
+</body>
+</html>
