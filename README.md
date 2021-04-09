@@ -8,7 +8,7 @@ This project includes one movie, one tv show and one music. There are some detai
 
 ## Design & Development Notes
 
-Design & Develop Concept can be viewed here. [Des/Dev Concept](#)
+[Design & Develop Concept can be viewed here.](https://docs.google.com/document/d/11UIraVydYlvng7G8CEIY9jOQFyDfWPiW6NLIcUJlgvw/edit?usp=sharing)
 
 
 ## Built With
