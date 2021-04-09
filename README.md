@@ -8,9 +8,8 @@ This project includes one movie, one tv show and one music. There are some detai
 
 ## Design & Development Notes
 
-Design Concept can be viewed here. [Des Concept](#)
+Design & Develop Concept can be viewed here. [Des/Dev Concept](#)
 
-Development Road Map can be viewed here. [Dev Road Map](#)
 
 ## Built With
 
